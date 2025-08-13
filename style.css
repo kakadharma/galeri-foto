@@ -36,19 +36,19 @@
 }
 
 /* Gallery Photo */
-.container .box {
+.container .album {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.container .box .dream {
+.container .album .gallery {
     display: flex;
     flex-direction: column;
     width: 32.5%;
 }
 
-.container .box .dream img {
+.container .album .gallery img {
     width: 100%;
     padding-bottom: 15px;
     border-radius: 5px;
@@ -71,11 +71,11 @@
 
 /*Responsive Screen Mobile or Tablet - Jika Layar < 769px*/
 @media only screen and (max-width: 769px){
-    .container .box {
+    .container .album {
         flex-direction: column;
     }
 
-    .container .box .dream{
+    .container .album .gallery{
         width: 100%;
     }
 }
@@ -103,7 +103,7 @@
         padding-bottom: 3px;
     }
 
-    .container .box .dream img {
+    .container .album .gallery img {
         padding-top: 50px;
     }
 }
@@ -120,7 +120,7 @@
         padding-bottom: 3px;
     }
 
-    .container .box .dream img {
+    .container .album .gallery img {
         padding-top: 50px;
     }
 } */
