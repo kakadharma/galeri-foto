@@ -7,6 +7,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+img {
+    width: 400px;
+    height: 300px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -32,10 +37,17 @@
     font-weight: 100;
 }
 
-.box {
+.container .box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+
+.container .box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
 
